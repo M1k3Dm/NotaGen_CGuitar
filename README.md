@@ -18,7 +18,7 @@ This study uses the **Classical Guitar MIDI Dataset**, a collection of over 5.00
 
 In our experiments, the **Finetune All** approach significantly outperformed other adaptation strategies on key quality and capability metrics—achieving the lowest values in perplexity, CLaMP-2 score and Frechet Music Distance. The **Finetune Last** method yielded similar yet slightly inferior results, indicating that the character-level decoder drives most of the sequence modeling, while the patch-level decoder provides marginal but meaningful improvements. Baseline (non-transfer) and zero-shot methods lagged behind across all metrics, underscoring the necessity of transfer learning for adapting NotaGen to classical guitar repertoire.
 
-The results of the playability metric demonstrate that, on average, the generated outputs closely approach the playability of human compositions. All adaptation methods achieve playability scores within the second decimal place of the human baseline, with negligible differences between them :contentReference[oaicite:3]{index=3}.
+The results of the playability metric demonstrate that, on average, the generated outputs closely approach the playability of human compositions. All adaptation methods achieve playability scores within the second decimal place of the human baseline, with negligible differences between them.
 
 
 ## Generated Outputs
