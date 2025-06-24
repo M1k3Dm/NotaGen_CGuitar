@@ -1,0 +1,109 @@
+[INIT] Model instantiated: total params=515,738,880, trainable=515,738,880
+[INIT] Model moved to cuda
+[INIT] Optimizer: AdamW(lr=0.0001, weight_decay=0.01)
+[INIT] LR schedulers: warmup_steps=1000, plateau(patience=2)
+
+Epoch 1
+train_loss: 1.0588075441009053
+eval_loss: 0.823896417462208
+time: Tue May 27 10:24:12 2025
+
+Epoch 2
+train_loss: 0.7805396046088072
+eval_loss: 0.7237119902919212
+time: Tue May 27 10:54:19 2025
+
+Epoch 3
+train_loss: 0.6940722443916142
+eval_loss: 0.659554851261073
+time: Tue May 27 11:24:19 2025
+
+Epoch 4
+train_loss: 0.644781094504856
+eval_loss: 0.6277602612400238
+time: Tue May 27 11:54:57 2025
+
+Epoch 5
+train_loss: 0.6131233505445159
+eval_loss: 0.600811595250915
+time: Tue May 27 12:25:35 2025
+
+Epoch 6
+train_loss: 0.5882008471969852
+eval_loss: 0.5869130172450345
+time: Tue May 27 12:56:12 2025
+
+Epoch 7
+train_loss: 0.5676891069411373
+eval_loss: 0.5735650808191116
+time: Tue May 27 13:26:48 2025
+
+Epoch 8
+train_loss: 0.5501596226640991
+eval_loss: 0.5608999800945198
+time: Tue May 27 13:57:25 2025
+
+Epoch 9
+train_loss: 0.5340177192443677
+eval_loss: 0.5464525936661206
+time: Tue May 27 14:28:01 2025
+
+Epoch 10
+train_loss: 0.5191367696036473
+eval_loss: 0.5442313718075029
+time: Tue May 27 14:58:38 2025
+
+Epoch 11
+train_loss: 0.5051625765804653
+eval_loss: 0.5370152596091126
+time: Tue May 27 15:29:14 2025
+
+Epoch 12
+train_loss: 0.49218846347253614
+eval_loss: 0.5283525796346152
+time: Tue May 27 15:59:51 2025
+
+Epoch 13
+train_loss: 0.4783038512669738
+eval_loss: 0.5257112276302418
+time: Tue May 27 16:30:28 2025
+
+Epoch 14
+train_loss: 0.4654226922069146
+eval_loss: 0.5220490990067169
+time: Tue May 27 17:01:03 2025
+
+Epoch 15
+train_loss: 0.4530109197137337
+eval_loss: 0.5176323986900059
+time: Tue May 27 17:31:12 2025
+
+Epoch 16
+train_loss: 0.43998598280014795
+eval_loss: 0.5172272235612723
+time: Tue May 27 18:01:12 2025
+
+Epoch 17
+train_loss: 0.4270859820764214
+eval_loss: 0.5280879902118913
+time: Tue May 27 18:31:15 2025
+
+Epoch 18
+train_loss: 0.4149400456016202
+eval_loss: 0.5233692399542529
+time: Tue May 27 19:00:58 2025
+
+Epoch 19
+train_loss: 0.4027635714927394
+eval_loss: 0.5249686994788285
+time: Tue May 27 19:30:39 2025
+Epoch 00019: reducing learning rate of group 0 to 5.0000e-05.
+
+Epoch 20
+train_loss: 0.3907619166036633
+eval_loss: 0.5295851065021101
+time: Tue May 27 20:00:24 2025
+
+Early stopping at epoch 20 (no improvement for 4 epochs).
+Best Eval Epoch : 16
+Min Eval Loss  : 0.5172272235612723

@@ -1,0 +1,41 @@
+Loading Train Data...
+Loading Eval Data...
+[INIT] Model instantiated: total params=515,738,880, trainable=515,738,880
+[INIT] Model moved to cuda
+[INIT] Optimizer: AdamW(lr=1e-05, weight_decay=0.01)
+[INIT] LR schedulers: warmup_steps=1000, plateau(patience=2)
+[INIT] Successfully Loaded Pretrained Checkpoint at Epoch 81 with Loss 0.16104345745940246
+
+Epoch 1
+train_loss: 0.1735935974754402
+eval_loss: 0.1555138486017421
+time: Mon May 26 17:10:32 2025
+
+Epoch 2
+train_loss: 0.14996784723573683
+eval_loss: 0.1530814351310199
+time: Mon May 26 17:40:42 2025
+
+Epoch 3
+train_loss: 0.13934813009788227
+eval_loss: 0.1525813628867583
+time: Mon May 26 18:10:51 2025
+
+Epoch 4
+train_loss: 0.130912931558645
+eval_loss: 0.15415198827830937
+time: Mon May 26 18:41:10 2025
+
+Epoch 5
+train_loss: 0.12357246519862275
+eval_loss: 0.1553133340863486
+time: Mon May 26 19:11:06 2025
+
+Epoch 6
+train_loss: 0.11675429578538861
+eval_loss: 0.15908084779033962
+time: Mon May 26 19:40:58 2025
+
+Early stopping at epoch 6 (no improvement for 3 epochs).
+Best Eval Epoch : 3
+Min Eval Loss  : 0.1525813628867583
